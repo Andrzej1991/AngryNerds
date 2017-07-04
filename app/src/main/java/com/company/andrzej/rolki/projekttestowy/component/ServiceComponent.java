@@ -12,7 +12,9 @@ import dagger.Component;
  */
 
 @Singleton
+//tutaj mamy nasz component, który wskazuje jakie mamy moduły,
 @Component(modules = {ServiceModule.class})
 public interface ServiceComponent {
+    //wskazujemy gdzie chcemy go uzyc
     void inject(MainActivity activity);
 }

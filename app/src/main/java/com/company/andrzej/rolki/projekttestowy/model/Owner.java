@@ -9,6 +9,8 @@ import com.google.gson.annotations.SerializedName;
 
 public class Owner {
 
+    //model danych owner
+
     @SerializedName("login")
     @Expose
     private String login;

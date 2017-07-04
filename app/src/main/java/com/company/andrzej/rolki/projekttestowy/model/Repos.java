@@ -9,6 +9,8 @@ import com.google.gson.annotations.SerializedName;
 
 public class Repos {
 
+    //model danych Repos
+
     @SerializedName("id")
     @Expose
     private long id;
